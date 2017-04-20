@@ -44,7 +44,7 @@ function showFirstTen() {
 
 //event listener to place 10 students per page
 buttonDiv.addEventListener('click', (event) => {
-    noResultDiv.innerHTML = ''; 
+    noResult.innerHTML = ''; 
     let buttonNumber = parseInt(event.target.textContent);
     let max = buttonNumber * 10; 
     let min = max - 10;
